@@ -1,4 +1,5 @@
 def oxford_comma(array)
+
   if array.size == 1
     return array[0]
   elsif array.size == 2
@@ -18,7 +19,5 @@ def oxford_comma(array)
     string = string + "and #{array[-1]}"
     string
   end
-
-
 
 end
